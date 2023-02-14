@@ -11,9 +11,9 @@
 void printCurTime()
 {
 	//Exponential Backoff - Calculate current time
-    char time_string[15];
-    struct timeval curTime;
-    struct tm* ptm;	
+	char time_string[15];
+	struct timeval curTime;
+	struct tm* ptm;	
 
 	//Calculate current time - Get the current time
 	gettimeofday(&curTime, NULL);
