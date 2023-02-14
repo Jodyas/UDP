@@ -17,6 +17,6 @@ $ ./udpServer 127.0.0.1 3456
 
 IP Port
 
-$ ./udpClient 1234 myInfo 10
+$ ./udpClient 127.0.0.1 3456 myInfo 10
 
 IP Port Message [maxRetry]
