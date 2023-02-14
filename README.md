@@ -1,5 +1,5 @@
 # UDP
-UDP-C-Implementation
+Implement UDP with exponential backoff algorithm by C
 
 # Step 1
 Open two terminals
