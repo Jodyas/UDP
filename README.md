@@ -15,8 +15,10 @@ $ gcc udpClient.c -o udpClient -lm
 # Step 3 - Run 
 $ ./udpServer 127.0.0.1 3456 
 
-IP Port
+Arguments: IP Port
 
 $ ./udpClient 127.0.0.1 3456 myInfo 10
 
-IP Port Message [maxRetry]
+Arguments: IP Port Message [maxRetry]
+
+Type 127.0.0.1.1 as IP to test exponential backoff algorithm
